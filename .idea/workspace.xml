@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0890746d-14b3-472f-a02a-ddb9ce7f592e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/about.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-page/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-page/ContactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-page/contactpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-page/contactpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-page/contactpage.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-page/contactpage.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-page/contactpage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-page/contactpage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/portfolio.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topbar/Topbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/Topbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topbar/topbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/topbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topbar/topbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/topbar.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topbar/topbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/topbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/reset.css" afterDir="false" />
-    </list>
+    <list default="true" id="0890746d-14b3-472f-a02a-ddb9ce7f592e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +57,7 @@
       <workItem from="1633028531097" duration="616000" />
       <workItem from="1637084934567" duration="83000" />
       <workItem from="1637175205485" duration="833000" />
-      <workItem from="1637176550984" duration="759000" />
+      <workItem from="1637176550984" duration="1030000" />
     </task>
     <servers />
   </component>
