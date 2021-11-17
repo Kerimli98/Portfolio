@@ -1,3 +1,79 @@
-
+.topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  transition: all 1s ease;
+}
+.topbar .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.topbar .wrapper .left {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  transition: all 0.45s ease;
+}
+.topbar .wrapper .left:hover i {
+  animation: arrowBlink 0.9s infinite;
+}
+.topbar .wrapper .left:hover .logo {
+  padding: 0 18px;
+  text-shadow: 0 0 8px #5ac4c4, 0 0 20px #5ac4c4, 0 0 30px #5ac4c4;
+}
+.topbar .wrapper .left .logo {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 300;
+  padding: 0 10px;
+  transition: all 0.6s cubic-bezier(0.05, 0.78, 0.44, 1.12);
+}
+@keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
+}
+.topbar .wrapper .left i {
+  font-size: 20px;
+  color: black;
+}
+.topbar .wrapper .right .hamburger {
+  width: 65px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.topbar .wrapper .right .hamburger:hover span {
+  box-shadow: 0 0 8px #5ac4c4, 0 0 20px #5ac4c4, 0 0 30px #5ac4c4;
+}
+.topbar .wrapper .right .hamburger span {
+  background-color: #fff;
+  height: 2px;
+  width: 100%;
+  transform-origin: 14.5% 50%;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.topbar.active {
+  color: white;
+}
+.topbar.active .left .logo {
+  color: white;
+}
+.topbar.active .hamburger span:first-child {
+  background-color: white;
+  transform: rotate(45deg);
+}
+.topbar.active .hamburger span:nth-child(2) {
+  opacity: 0;
+}
+.topbar.active .hamburger span:last-child {
+  background-color: white;
+  transform: rotate(-45deg);
+}
 
 /*# sourceMappingURL=topbar.css.map */

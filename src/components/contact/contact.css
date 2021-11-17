@@ -1,40 +1,36 @@
-.home {
-  font-family: "Roboto", sans-serif;
-  height: 100vh;
-  background-color: #2d2d2d;
-}
-.home .sidebar {
+.contact {
   position: absolute;
   display: flex;
   flex-direction: column;
   top: 50%;
+  left: 0;
   transform: translateY(-50%);
 }
-.home .sidebar .github {
+.contact .github {
   background-color: #333;
 }
-.home .sidebar .linkedin {
+.contact .linkedin {
   background-color: #0077b5;
 }
-.home .sidebar .email {
-  background-color: teal;
+.contact .email {
+  background-color: #1e4141;
 }
-.home .sidebar .resume {
-  background-color: #51386b;
+.contact .resume {
+  background-color: #3f2c54;
 }
-.home .sidebar a {
+.contact a {
   margin-left: -90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0 20px 15px;
-  color: white;
+  color: #fff;
   width: 150px;
-  letter-spacing: 1.5px;
+  letter-spacing: 3px;
   position: relative;
   transition: all 0.5s cubic-bezier(0.05, 0.78, 0.44, 1.12);
 }
-.home .sidebar a span {
+.contact a span {
   float: right;
   width: 80px;
   height: 100%;
@@ -43,11 +39,11 @@
   right: 0;
   top: 30%;
 }
-.home .sidebar a span i {
+.contact a span i {
   font-size: 20px;
 }
-.home .sidebar a:hover {
+.contact a:hover {
   margin-left: 0;
 }
 
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=contact.css.map */

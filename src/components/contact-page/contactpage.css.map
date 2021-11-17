@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["contact-page.scss"],"names":[],"mappings":"AAAA;EACE","file":"contact-page.css"}
+{"version":3,"sourceRoot":"","sources":["contactpage.scss","../../global.scss"],"names":[],"mappings":"AAEA;EACE,kBCHQ;EDIR;EACA;EACA","file":"contactpage.css"}

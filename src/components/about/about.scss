@@ -1,0 +1,127 @@
+@import "../../global.scss";
+
+.about {
+  background-color: $bgColor;
+  font-family: 'Staatliches', sans-serif;
+  position: relative;
+  height: 100vh;
+
+  .about-container {
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+
+    .header {
+      letter-spacing: 5px;
+      font-size: 75px;
+      color: #fff;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+
+    .about-primary {
+      letter-spacing: 3px;
+      font-size: 34px;
+      font-weight: 500;
+      color: $textColor;
+
+      span {
+        transition: all 0.3s ease;
+
+        &:hover {
+          text-shadow: 0 0 8px $mainBlue,
+          0 0 20px $mainBlue,
+          0 0 30px $mainBlue;
+
+        }
+      }
+    }
+
+    .about-secondary {
+      letter-spacing: 3px;
+      margin-top: 28px;
+      font-size: 30px;
+      color: $textColor;
+      span {
+        transition: all 0.3s ease;
+
+        &:hover {
+          text-shadow: 0 0 8px $mainBlue,
+          0 0 20px $mainBlue,
+          0 0 30px $mainBlue;
+
+        }
+      }
+    }
+
+    .wrapper {
+      position: fixed;
+      top: 150%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .link_wrapper {
+      position: relative;
+    }
+
+    a {
+      display: block;
+      width: 250px;
+      height: 50px;
+      line-height: 50px;
+      font-weight: 300;
+      text-decoration: none;
+      background: $bgColor;
+      text-align: center;
+      color: #fff;
+      font-size: 19px;
+      letter-spacing: 4px;
+      border: 3px solid $textColor;
+      transition: all .35s;
+    }
+
+    .icon {
+      width: 50px;
+      height: 50px;
+      border: 3px solid transparent;
+      position: absolute;
+      transform: rotate(45deg);
+      right: 0;
+      top: 0;
+      z-index: -1;
+      transition: all .35s;
+    }
+
+    .icon svg {
+      width: 30px;
+      position: absolute;
+      top: calc(50% - 15px);
+      left: calc(50% - 15px);
+      transform: rotate(-45deg);
+      fill: $mainBlue;
+      transition: all .35s;
+    }
+
+    a:hover {
+      width: 200px;
+      border: 3px solid $menuColor;
+      background: transparent;
+      color: $mainBlue;
+      box-shadow: 0 0 8px $mainBlue,
+      0 0 20px $mainBlue,
+      0 0 30px $mainBlue;
+    }
+
+    a:hover + .icon {
+      border: 3px solid $menuColor;
+      right: -25%;
+      box-shadow: 0 0 8px $mainBlue,
+      0 0 20px $mainBlue,
+      0 0 30px $mainBlue;
+    }
+  }
+}
+

@@ -1,13 +1,12 @@
-import "./home.scss"
+import "./contact.scss"
 
-function Home(props) {
+function Contact(props) {
     return (
-        <div className="home">
-            <div className="sidebar">
-                <a href="" className="github">Github
+        <div className="contact">
+                <a href="https://github.com/Kerimli98" className="github">Github
                     <span><i className="fab fa-github"></i></span>
                 </a>
-                <a href="" className="linkedin">Linkedin
+                <a href="https://www.linkedin.com/in/fatima-karimli-2899ba212/" className="linkedin">Linkedin
                     <span><i className="fab fa-linkedin-in"></i></span>
                 </a>
                 <a href="" className="email">Email
@@ -16,9 +15,8 @@ function Home(props) {
                 <a href="" className="resume">Resume
                     <span><i className="fas fa-user"></i></span>
                 </a>
-            </div>
         </div>
     );
 }
 
-export default Home;
+export default Contact;

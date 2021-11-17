@@ -1,25 +1,37 @@
 import './menu.scss'
-import React from 'react';
+import {Link} from 'react-router-dom'
 
 function Menu({menuOpen, setMenuOpen}) {
 
     return (
         <div className={"menu " + (menuOpen && "active")}>
             <ul>
-                <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#">Home</a>
-                </li>
-                <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#">About</a>
-                </li>
+                <Link to='/'>
+                    <li onClick={() => setMenuOpen(false)}>
+                        <a href="#" className="effect-underline">
+                            About
+                        </a>
+                    </li>
+                </Link>
 
-                <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#">Projects</a>
-                </li>
-                <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#">Contact</a>
-                </li>
+                <Link to='/portfolio'>
+                    <li onClick={() => setMenuOpen(false)}>
+                        <a href="#" className="effect-underline">
+                            Portfolio
+                        </a>
+                    </li>
+
+                </Link>
+
+                <Link to='/contact'>
+                    <li onClick={() => setMenuOpen(false)}>
+                        <a href="#" className="effect-underline">
+                            Contact
+                        </a>
+                    </li>
+                </Link>
             </ul>
+
         </div>
     );
 }
