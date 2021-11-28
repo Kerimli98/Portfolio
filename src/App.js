@@ -6,7 +6,6 @@ import {useState} from "react";
 import Menu from "./components/menu/Menu";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
-import ContactPage from "./components/contact-page/ContactPage";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
                 <Switch>
                     <Route path="/" exact component={About}/>
                     <Route path="/portfolio" component={Portfolio}/>
-                    <Route path="/contact" component={ContactPage}/>
                 </Switch>
             </div>
         </Router>

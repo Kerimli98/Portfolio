@@ -11,19 +11,20 @@
     transform: translateY(-50%) translateX(-50%);
     left: 50%;
     top: 50%;
+    width: 60%;
     text-align: center;
 
     .header {
-      letter-spacing: 5px;
-      font-size: 75px;
+      letter-spacing: 0.357rem;
+      font-size: 5.357rem;
       color: #fff;
       font-weight: 400;
-      margin-bottom: 30px;
+      margin-bottom: 2.142rem;
     }
 
     .about-primary {
-      letter-spacing: 3px;
-      font-size: 34px;
+      letter-spacing: 0.214rem;
+      font-size: 2.428rem;
       font-weight: 500;
       color: $textColor;
 
@@ -40,10 +41,11 @@
     }
 
     .about-secondary {
-      letter-spacing: 3px;
-      margin-top: 28px;
-      font-size: 30px;
+      letter-spacing: 0.214rem;
+      margin-top: 2rem;
+      font-size: 2.142rem;
       color: $textColor;
+
       span {
         transition: all 0.3s ease;
 
@@ -61,67 +63,188 @@
       top: 150%;
       left: 50%;
       transform: translate(-50%, -50%);
-    }
 
-    .link_wrapper {
-      position: relative;
-    }
 
-    a {
-      display: block;
-      width: 250px;
-      height: 50px;
-      line-height: 50px;
-      font-weight: 300;
-      text-decoration: none;
-      background: $bgColor;
-      text-align: center;
-      color: #fff;
-      font-size: 19px;
-      letter-spacing: 4px;
-      border: 3px solid $textColor;
-      transition: all .35s;
-    }
+      .link_wrapper {
+        position: relative;
 
-    .icon {
-      width: 50px;
-      height: 50px;
-      border: 3px solid transparent;
-      position: absolute;
-      transform: rotate(45deg);
-      right: 0;
-      top: 0;
-      z-index: -1;
-      transition: all .35s;
-    }
 
-    .icon svg {
-      width: 30px;
-      position: absolute;
-      top: calc(50% - 15px);
-      left: calc(50% - 15px);
-      transform: rotate(-45deg);
-      fill: $mainBlue;
-      transition: all .35s;
-    }
+        a {
+          width: 17.857rem;
+          height: 3.571rem;
+          line-height: 3.571rem;
+          font-weight: 300;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          background: $bgColor;
+          text-align: center;
+          color: #fff;
+          font-size: 1.357rem;
+          letter-spacing: 0.285rem;
+          border: 0.214rem solid $textColor;
+          transition: all .35s;
+        }
 
-    a:hover {
-      width: 200px;
-      border: 3px solid $menuColor;
-      background: transparent;
-      color: $mainBlue;
-      box-shadow: 0 0 8px $mainBlue,
-      0 0 20px $mainBlue,
-      0 0 30px $mainBlue;
-    }
+        .icon {
+          width: 3.571rem;
+          height: 3.571rem;
+          border: 0.214rem solid transparent;
+          position: absolute;
+          transform: rotate(45deg);
+          right: 0;
+          top: 0;
+          z-index: -1;
+          transition: all .35s;
 
-    a:hover + .icon {
-      border: 3px solid $menuColor;
-      right: -25%;
-      box-shadow: 0 0 8px $mainBlue,
-      0 0 20px $mainBlue,
-      0 0 30px $mainBlue;
+          svg {
+            width: 2.142rem;
+            position: absolute;
+            top: calc(50% - 17px);
+            left: calc(50% - 17px);
+            transform: rotate(-45deg);
+            fill: $mainBlue;
+            transition: all .35s;
+          }
+        }
+
+        a:hover {
+          width: 14.285rem;
+          border: 0.214rem solid $menuColor;
+          background: transparent;
+          color: $mainBlue;
+          box-shadow: 0 0 8px $mainBlue,
+          0 0 20px $mainBlue,
+          0 0 30px $mainBlue;
+        }
+
+        a:hover + .icon {
+          border: 0.214rem solid $menuColor;
+          right: -25%;
+          box-shadow: 0 0 8px $mainBlue,
+          0 0 20px $mainBlue,
+          0 0 30px $mainBlue;
+        }
+      }
     }
   }
 }
 
+@media only screen and(max-width: 479px) {
+  html {
+    font-size: 11px;
+  }
+  .about {
+    .about-container {
+      .header {
+        font-size: 2.8rem;
+      }
+
+      .about-primary {
+        font-size: 2rem;
+      }
+
+      .about-secondary {
+        font-size: 1.8rem;
+      }
+
+      .wrapper {
+        top: 119%;
+
+        .link_wrapper {
+          a {
+            width: 16rem;
+            height: 4.5rem;
+            font-size: 1.6rem;
+
+            border: 0.2rem solid $textColor;
+          }
+
+          .icon {
+            width: 3.5rem;
+            height: 3.5rem;
+            border: 0.2rem solid transparent;
+
+            svg {
+              width: 2.5rem;
+              margin-top: 0.3rem;
+            }
+          }
+
+          a:hover {
+            width: 17rem;
+            font-size: 1.6rem;
+            height: 4.5rem;
+            border: 0.2rem solid $menuColor;
+
+          }
+
+          a:hover + .icon {
+            border: 0.2rem solid $menuColor;
+            right: -17%;
+            top: 8%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+  .about {
+    .about-container {
+      .header {
+        font-size: 3.571rem;
+      }
+
+      .about-primary {
+        font-size: 1.8rem
+      }
+
+      .about-secondary {
+        font-size: 1.7rem;
+      }
+
+      .wrapper {
+        top: 150%;
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+
+  .about {
+    .about-container {
+      transform: translateY(-50%) translateX(-50%);
+      top: 38%;
+
+      .wrapper {
+        top: 150%;
+        transform: translate(-50%, -60%);
+
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1500px) {
+  html {
+    font-size: 14px;
+  }
+}

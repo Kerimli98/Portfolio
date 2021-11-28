@@ -1,8 +1,166 @@
 @import "../../global.scss";
 
-.portfolio{
+.portfolio {
   font-family: 'Staatliches', sans-serif;
   position: relative;
   height: 100vh;
   background-color: $bgColor;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      position: absolute;
+      top: 12%;
+
+      .header-main {
+        font-size: 3rem;
+      }
+
+      .header-sub {
+        font-family: "Inconsolata", monospace;
+        margin-top: 1rem;
+        font-size: 1.33rem;
+        font-weight: 300;
+        line-height: 1.4;
+      }
+    }
+
+    .projects {
+      position: absolute;
+      top: 25%;
+      display: grid;
+      grid-template-columns: repeat( 4, 1fr);
+      padding: 2rem 5.33rem;
+      grid-gap: 3rem;
+
+      .project {
+        background-color: $menuColor;
+        border-radius: 1.33rem;
+        box-shadow: 0 0 2rem rgba(17, 16, 16, 0.18);
+
+
+        .project-container {
+          position: relative;
+          clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+          img {
+            width: 100%;
+            display: block;
+            border-radius: 1.33rem 1.33rem 0 0;
+
+          }
+
+          &:after {
+            content: "";
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 1.33rem 1.33rem 0 0;
+            opacity: 0.6;
+
+          }
+        }
+
+        .details {
+          padding: 1rem 0.5rem;
+          text-align: center;
+
+          h3 {
+            color: white;
+            font-weight: 400;
+            font-size: 1.5rem;
+            letter-spacing: 0.3rem;
+            margin: 0.6rem 0 1.2rem 0;
+          }
+
+          button {
+            font-family: "Inconsolata", monospace;
+            font-size: 1rem;
+            background: $bgColor;
+            color: #fff;
+            border: 0.1rem solid $textColor;
+            padding: 0.8rem 1rem;
+            margin-bottom: 1rem;
+            transition: 0.3s ease;
+
+            &:hover{
+              color: $mainBlue;
+              box-shadow: 0 0 8px $mainBlue,
+              0 0 20px $mainBlue,
+              0 0 30px $mainBlue;
+            }
+          }
+        }
+
+        &:hover {
+          > .project-container {
+            &:after {
+              background-image: linear-gradient(135deg, black, black);
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1400px) {
+  html {
+    font-size: 14px;
+  }
+  .portfolio {
+    height: 130vh;
+    .container {
+      .projects {
+        grid-template-columns: repeat(3, 1fr);
+
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 1023px) {
+  html {
+    font-size: 13px;
+  }
+
+  .portfolio {
+    height: 130vh;
+
+    .container {
+      .projects {
+        grid-template-columns: repeat(2, 1fr);
+
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 699px) {
+  html {
+    font-size: 11px;
+  }
+  .portfolio {
+    height: 180vh;
+
+    .container {
+      .projects {
+        top: 18%;
+        grid-template-columns: repeat(1, 1fr);
+
+      }
+    }
+  }
 }

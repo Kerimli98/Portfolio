@@ -5,7 +5,6 @@
   top: 0;
   width: 100%;
   z-index: 3;
-  transition: all 1s ease;
 
   .wrapper {
     display: flex;
@@ -17,7 +16,6 @@
       display: flex;
       align-items: baseline;
       justify-content: center;
-      transition: all 0.45s ease;
 
       &:hover i {
         animation: arrowBlink 0.9s infinite;
@@ -110,6 +108,32 @@
         }
       }
     }
+  }
+}
+
+@media screen and(max-width: 479px) {
+  .topbar {
+    .wrapper {
+      .left {
+        .logo {
+          font-size: 25px;
+        }
+
+        i {
+          font-size: 15px;
+        }
+
+      }
+
+      .right {
+
+        .hamburger {
+          width: 40px;
+          height: 30px;
+        }
+      }
+    }
+
   }
 }
 

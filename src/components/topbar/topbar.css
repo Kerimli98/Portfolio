@@ -3,7 +3,6 @@
   top: 0;
   width: 100%;
   z-index: 3;
-  transition: all 1s ease;
 }
 .topbar .wrapper {
   display: flex;
@@ -15,7 +14,6 @@
   display: flex;
   align-items: baseline;
   justify-content: center;
-  transition: all 0.45s ease;
 }
 .topbar .wrapper .left:hover i {
   animation: arrowBlink 0.9s infinite;
@@ -74,6 +72,19 @@
 .topbar.active .hamburger span:last-child {
   background-color: white;
   transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 479px) {
+  .topbar .wrapper .left .logo {
+    font-size: 25px;
+  }
+  .topbar .wrapper .left i {
+    font-size: 15px;
+  }
+  .topbar .wrapper .right .hamburger {
+    width: 40px;
+    height: 30px;
+  }
 }
 
 /*# sourceMappingURL=topbar.css.map */

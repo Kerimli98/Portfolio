@@ -1,0 +1,120 @@
+@import "../../global.scss";
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.modal {
+  font-family: 'Lato', sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2a2828;
+  display: flex;
+  z-index: 1000;
+  width: 1000px;
+  height: 600px;
+
+
+  .left {
+    flex: 0.6;
+  }
+
+  .right {
+    flex: 0.4;
+    padding: 30px 0 10px 0;
+
+    .close-btn {
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      border: none;
+      transition: 0.3s ease;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+
+      i {
+        font-size: 35px;
+        background-color: #2a2828;
+        color: black;
+      }
+    }
+
+    h1 {
+      font-family: "Inconsolata", monospace;
+      font-size: 40px;
+      color: #d2cece;
+    }
+
+    .tools {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      font-family: "Staatliches", sans-serif;
+      letter-spacing: 1.06px;
+
+      .tool {
+        border: 1px solid #6e6d6d;
+        margin-right: 5px;
+        margin-bottom: 5px;
+
+        .tool-name {
+          font-size: 16px;
+          color: #858282;
+          padding: 8px;
+
+        }
+      }
+    }
+
+    .about-section {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+      font-family: "Inconsolata", monospace;
+      color: #d2cece;
+
+      .about-header {
+        font-size: 30px;
+        letter-spacing: 1px;
+
+      }
+
+      .about-text {
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
+    }
+
+    .code-btn {
+      font-family: "Inconsolata", monospace;
+      font-size: 1rem;
+      background: $bgColor;
+      color: #fff;
+      letter-spacing: 1px;
+      border: 0.1rem solid $textColor;
+      padding: 0.7rem 1rem;
+      margin-top: 2rem;
+      transition: 0.3s ease;
+
+      &:hover {
+        color: $mainBlue;
+        box-shadow: 0 0 8px $mainBlue,
+        0 0 20px $mainBlue,
+        0 0 30px $mainBlue;
+      }
+    }
+  }
+
+
+}

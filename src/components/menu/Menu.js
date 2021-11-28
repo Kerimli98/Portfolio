@@ -1,5 +1,6 @@
-import './menu.scss'
-import {Link} from 'react-router-dom'
+import './menu.scss';
+import {Link} from 'react-router-dom';
+import {motion} from "framer-motion";
 
 function Menu({menuOpen, setMenuOpen}) {
 
@@ -8,7 +9,7 @@ function Menu({menuOpen, setMenuOpen}) {
             <ul>
                 <Link to='/'>
                     <li onClick={() => setMenuOpen(false)}>
-                        <a href="#" className="effect-underline">
+                        <a href ="#" className="effect-underline">
                             About
                         </a>
                     </li>
@@ -21,14 +22,6 @@ function Menu({menuOpen, setMenuOpen}) {
                         </a>
                     </li>
 
-                </Link>
-
-                <Link to='/contact'>
-                    <li onClick={() => setMenuOpen(false)}>
-                        <a href="#" className="effect-underline">
-                            Contact
-                        </a>
-                    </li>
                 </Link>
             </ul>
 
