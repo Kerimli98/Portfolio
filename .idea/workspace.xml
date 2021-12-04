@@ -2,39 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0890746d-14b3-472f-a02a-ddb9ce7f592e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/20210429214508_IMG_0671.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Inosuke.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/nezuko.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tanjiro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/zenitsu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/modal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/modal.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Slider/ImageSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Slider/SliderData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Slider/imageslider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Slider/imageslider.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Slider/imageslider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio-javid.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/modal.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/modal.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/SliderData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/SliderData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/imageslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/imageslider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/imageslider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/imageslider.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/imageslider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/imageslider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/about.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-page/ContactPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-page/contactpage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-page/contactpage.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-page/contactpage.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/Menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/portfolio/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.css" afterDir="false" />
@@ -44,8 +30,7 @@
       <change beforePath="$PROJECT_DIR$/src/components/topbar/topbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/topbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/topbar/topbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/topbar.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/topbar/topbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/topbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +74,8 @@
       <recent name="C:\Users\Fatima\Desktop\portfolio-fatima\public\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fatima\Desktop\portfolio-fatima\public\photos" />
+      <recent name="C:\Users\Fatima\Desktop\portfolio-fatima\src" />
       <recent name="C:\Users\Fatima\Desktop\portfolio-fatima\public\assets" />
       <recent name="C:\Users\Fatima\Desktop\portfolio-fatima\public" />
       <recent name="C:\Users\Fatima\Desktop\portfolio-fatima\src\components" />
@@ -109,7 +96,10 @@
       <workItem from="1637175205485" duration="833000" />
       <workItem from="1637176550984" duration="1030000" />
       <workItem from="1637178064783" duration="464000" />
-      <workItem from="1637317656560" duration="74326000" />
+      <workItem from="1637317656560" duration="87363000" />
+      <workItem from="1638430817780" duration="15880000" />
+      <workItem from="1638617233846" duration="192000" />
+      <workItem from="1638624067674" duration="931000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,13 @@
   top: 0;
   width: 100%;
   z-index: 3;
+  transition: all 0.3s ease;
 
+  &.sticky {
+    background: $bgColor;
+    padding: 0.714rem 0;
+    box-shadow: 0 0.214rem 0.357rem 0 rgba(0, 0, 0, 0.1);
+  }
   .wrapper {
     display: flex;
     align-items: center;
@@ -17,25 +23,24 @@
       align-items: baseline;
       justify-content: center;
 
-      &:hover i {
-        animation: arrowBlink 0.9s infinite;
-      }
-
-      &:hover .logo {
-        padding: 0 18px;
-        text-shadow: 0 0 8px $mainBlue,
-        0 0 20px $mainBlue,
-        0 0 30px $mainBlue;
-      }
-
       .logo {
         color: #fff;
-        font-size: 35px;
+        font-size: 2.33rem;
         font-weight: 300;
-        padding: 0 10px;
+        padding: 0 0.66rem;
         transition: all 0.6s cubic-bezier(.05, .78, .44, 1.12);
 
+        &:hover {
+          transform: rotate(360deg);
+        }
       }
+
+      .tag {
+        font-size: 2.33rem;
+        color: black;
+        font-weight: 500;
+      }
+
 
       @keyframes arrowBlink {
         100% {
@@ -44,7 +49,7 @@
       }
 
       i {
-        font-size: 20px;
+        font-size: 1.33rem;
         color: black;
       }
     }
@@ -52,8 +57,8 @@
     .right {
 
       .hamburger {
-        width: 65px;
-        height: 48px;
+        width: 4.33rem;
+        height: 3.2rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -68,7 +73,7 @@
 
         span {
           background-color: #fff;
-          height: 2px;
+          height: 0.133rem;
           width: 100%;
           transform-origin: 14.5% 50%;
           transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
@@ -87,6 +92,7 @@
     .left {
       .logo {
         color: white;
+
       }
     }
 
@@ -112,7 +118,11 @@
 }
 
 @media screen and(max-width: 479px) {
+  html {
+    font-size: 11px;
+  }
   .topbar {
+
     .wrapper {
       .left {
         .logo {

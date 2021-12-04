@@ -11,10 +11,8 @@ function Modal({open, children, onclose}) {
     return ReactDOM.createPortal(
         <>
             <div className="overlay"/>
-            <motion.div className="modal"
-                        initial={{opacity: 0}}
-                        animate={{opacity: 1, translateX:-500,translateY:-300, scale:1.1}}
-                        transition={{duration: 0.3,type:'spring', stiffness:120}}
+            <div className="modal"
+
             >
 
                 <div className="left">
@@ -66,7 +64,7 @@ function Modal({open, children, onclose}) {
 
                     <button className="code-btn"><i className="fas fa-code"></i> Code</button>
                 </div>
-            </motion.div>
+            </div>
         </>,
         document.getElementById('portal')
     );

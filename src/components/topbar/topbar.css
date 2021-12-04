@@ -3,6 +3,12 @@
   top: 0;
   width: 100%;
   z-index: 3;
+  transition: all 0.3s ease;
+}
+.topbar.sticky {
+  background: #1c1c1c;
+  padding: 0.714rem 0;
+  box-shadow: 0 0.214rem 0.357rem 0 rgba(0, 0, 0, 0.1);
 }
 .topbar .wrapper {
   display: flex;
@@ -15,19 +21,20 @@
   align-items: baseline;
   justify-content: center;
 }
-.topbar .wrapper .left:hover i {
-  animation: arrowBlink 0.9s infinite;
-}
-.topbar .wrapper .left:hover .logo {
-  padding: 0 18px;
-  text-shadow: 0 0 8px #5ac4c4, 0 0 20px #5ac4c4, 0 0 30px #5ac4c4;
-}
 .topbar .wrapper .left .logo {
   color: #fff;
-  font-size: 35px;
+  font-size: 2.33rem;
   font-weight: 300;
-  padding: 0 10px;
+  padding: 0 0.66rem;
   transition: all 0.6s cubic-bezier(0.05, 0.78, 0.44, 1.12);
+}
+.topbar .wrapper .left .logo:hover {
+  transform: rotate(360deg);
+}
+.topbar .wrapper .left .tag {
+  font-size: 2.33rem;
+  color: black;
+  font-weight: 500;
 }
 @keyframes arrowBlink {
   100% {
@@ -35,12 +42,12 @@
   }
 }
 .topbar .wrapper .left i {
-  font-size: 20px;
+  font-size: 1.33rem;
   color: black;
 }
 .topbar .wrapper .right .hamburger {
-  width: 65px;
-  height: 48px;
+  width: 4.33rem;
+  height: 3.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -51,7 +58,7 @@
 }
 .topbar .wrapper .right .hamburger span {
   background-color: #fff;
-  height: 2px;
+  height: 0.133rem;
   width: 100%;
   transform-origin: 14.5% 50%;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -75,6 +82,10 @@
 }
 
 @media screen and (max-width: 479px) {
+  html {
+    font-size: 11px;
+  }
+
   .topbar .wrapper .left .logo {
     font-size: 25px;
   }

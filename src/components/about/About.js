@@ -6,7 +6,6 @@ import {motion} from "framer-motion";
 import {Link} from 'react-router-dom';
 
 
-
 function About() {
     const textRef = useRef()
     useEffect(() => {
@@ -20,7 +19,9 @@ function About() {
 
     }, [])
     return (
-        <div className="about">
+        <div className="about"
+
+        >
             <Contact/>
             <div className="about-container">
                 <h1 className="header" ref={textRef}></h1>

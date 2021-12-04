@@ -1,8 +1,8 @@
 .portfolio {
   font-family: "Staatliches", sans-serif;
   position: relative;
-  height: 100vh;
   background-color: #1c1c1c;
+  height: 100vh;
 }
 .portfolio .container {
   display: flex;
@@ -93,34 +93,93 @@
   }
 
   .portfolio {
-    height: 130vh;
+    padding: 37rem 0;
+  }
+  .portfolio .container .header {
+    top: 8%;
   }
   .portfolio .container .projects {
+    top: 16%;
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media only screen and (min-device-width: 700px) and (max-device-width: 1023px) {
+@media only screen and (min-device-width: 904px) and (max-device-width: 1023px) {
   html {
     font-size: 13px;
   }
 
   .portfolio {
-    height: 130vh;
+    padding: 40rem 0;
+  }
+  .portfolio .container .header {
+    top: 8%;
   }
   .portfolio .container .projects {
+    top: 15%;
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media only screen and (max-width: 699px) {
+@media only screen and (min-device-width: 700px) and (max-device-width: 903px) {
+  html {
+    font-size: 13px;
+  }
+
+  .portfolio {
+    padding: 39rem 0;
+  }
+  .portfolio .container .header {
+    top: 8%;
+  }
+  .portfolio .container .projects {
+    top: 15%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 699px) and (min-width: 540px) {
   html {
     font-size: 11px;
   }
 
   .portfolio {
-    height: 180vh;
+    padding: 100rem 0;
+  }
+  .portfolio .container .header {
+    top: 6%;
   }
   .portfolio .container .projects {
-    top: 18%;
+    top: 12%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 539px) and (min-width: 374px) {
+  html {
+    font-size: 11px;
+  }
+
+  .portfolio {
+    padding: 75rem 0;
+  }
+  .portfolio .container .header {
+    top: 6%;
+  }
+  .portfolio .container .projects {
+    top: 12%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 11px;
+  }
+
+  .portfolio {
+    padding: 64rem 0;
+  }
+  .portfolio .container .header {
+    top: 6%;
+  }
+  .portfolio .container .projects {
+    top: 12%;
     grid-template-columns: repeat(1, 1fr);
   }
 }

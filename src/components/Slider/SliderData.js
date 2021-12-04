@@ -1,15 +1,15 @@
 export const SliderData = [
     {
-        image: 'assets/tanjiro.jpg'
+        image: 'photos/tanjiro.jpg'
     },
     {
-        image: 'assets/Inosuke.jpg'
+        image: 'photos/Inosuke.jpg'
     },
     {
-        image: 'assets/nezuko.jpg'
+        image: 'photos/nezuko.jpg'
     },
     {
-        image: 'assets/zenitsu.jpg'
+        image: 'photos/zenitsu.jpg'
     },
 
 
