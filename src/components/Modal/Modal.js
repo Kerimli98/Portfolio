@@ -3,7 +3,6 @@ import './modal.scss';
 import ReactDOM from "react-dom";
 import ImageSlider from "../Slider/ImageSlider";
 import {SliderData} from "../Slider/SliderData";
-import {motion} from "framer-motion";
 
 function Modal({open, children, onclose}) {
     if (!open) return null
