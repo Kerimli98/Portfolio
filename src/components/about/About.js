@@ -24,6 +24,7 @@ function About() {
         >
             <Contact/>
             <div className="about-container">
+                <h1 className="header" ref={textRef}> </h1>
                 <motion.p className="about-primary"
                           initial={{opacity: 0}}
                           animate={{opacity: 1}}
@@ -66,7 +67,7 @@ function About() {
                                     transition={{delay: 4.5, type: 'spring', stiffness: 120}}
 
                         >
-                            <a href="">See Projects</a>
+                            <Link to='/portfolio'>See Projects</Link>
                             <div className="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
                                     <path
