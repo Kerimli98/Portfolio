@@ -11,7 +11,7 @@ function Portfolio() {
       <div className="container">
         <div className="header">
           <h2 className="header-main">Portfolio</h2>
-          <sub className="header-sub">// My latest works</sub>
+          <sub className="header-sub">My latest works</sub>
         </div>
         <div className="projects">
           {SliderData.map((item) => (
