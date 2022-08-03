@@ -24,7 +24,6 @@ function About() {
         >
             <Contact/>
             <div className="about-container">
-                <h1 className="header" ref={textRef}></h1>
                 <motion.p className="about-primary"
                           initial={{opacity: 0}}
                           animate={{opacity: 1}}
