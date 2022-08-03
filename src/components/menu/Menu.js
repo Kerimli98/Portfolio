@@ -7,18 +7,14 @@ function Menu({menuOpen, setMenuOpen}) {
         <div className={"menu " + (menuOpen && "active")}>
             <ul>
                 <Link to='/'>
-                    <li onClick={() => setMenuOpen(false)}>
-                        <a href ="#" className="effect-underline">
-                            About
-                        </a>
+                    <li className="effect-underline" onClick={() => setMenuOpen(false)}>
+                        About
                     </li>
                 </Link>
 
                 <Link to='/portfolio'>
-                    <li onClick={() => setMenuOpen(false)}>
-                        <a href="#" className="effect-underline">
-                            Portfolio
-                        </a>
+                    <li className="effect-underline" onClick={() => setMenuOpen(false)}>
+                        Portfolio
                     </li>
 
                 </Link>

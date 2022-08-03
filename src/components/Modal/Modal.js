@@ -55,11 +55,8 @@ function Modal({open, children, onclose}) {
                     </div>
                     <div className="about-section">
                         <h3 className="about-header">About</h3>
-                        <p className="about-text">Lorem ipsum dolor sit amet, consectetur porro sint voluptatum
-                            adipisicing elit. Molestias
-                            quam, vero. Aliquam porro sint voluptatum? ifikfifk porro sint voluptatum fifkfilfkjdfjkd
-                            kfjlkdfdf porro sint voluptatum jldkfj dlfkjdlfkjl porro sint voluptatum dfkjdlfkf flkdfjl
-                            porro sint voluptatum dkfjldkf jldkfjkf porro sint voluptatum</p>
+                        <p className="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere id animi, necessitatibus ut sapiente quod magni alias ipsum modi magnam tempora soluta? Provident accusantium blanditiis recusandae magnam tenetur doloribus error cupiditate enim eligendi, praesentium nostrum quidem! Eum illo pariatur veniam odio, atque, quas id voluptatibus tenetur, dolores optio et! Dolorem?
+                          </p>
                     </div>
 
                     <button className="code-btn"><i className="fas fa-code"></i> Code</button>
